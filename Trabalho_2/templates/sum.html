@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<title>Trabalho 2</title>
+<section class="content">
+    <header>
+        <h1>Soma</h1>
+    </header>
+    <form method="post">
+        <label for="number">Numero:</label>
+        <input type="number" name="number" id="number" required>
+        <input type="submit" value="Somar">
+    </form>
+    {% if result != '' %}
+    <p> O resultado é: {{txt}}</p>
+    {% endif %}
+
+</section>
